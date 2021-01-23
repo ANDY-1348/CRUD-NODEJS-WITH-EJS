@@ -1,0 +1,32 @@
+<h3>PRESENTATION</h3>
+<a href="/presentation"><i class="fas fa-backward"></i></a>
+<div class="container my-3">
+    <form action="/presentation/add" method="POST" autocomplete="off">
+        <div class="form-group my-3">
+            <label for="presentation">Presentation Name</label>
+            <input type="text" name="presentationname" class="form-control" id="presentation"
+                placeholder="Presentation name">
+        </div>
+        <div class="form-group my-3">
+            <label for="Version">Version</label>
+            <input type="text" name="Version" class="form-control" id="Version" placeholder="Version No">
+        </div>
+        <div class="form-group my-3">
+            <label for="Projectstatus">Project Status</label>
+            <select class="form-control" id="Projectstatus" name="Projectstatus">
+                <option value="" selected disabled hidden>--Please select--</option>
+                <option value="Active">Active</option>
+                <option value="Closed">Closed</option>
+
+
+            </select>
+        </div>
+
+
+        <div class="form-group my-3">
+            <label for="presentationdesc">Presentation Descripton </label>
+            <textarea class="form-control" id="presentationdesc" rows="10" name="presentationdesc"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

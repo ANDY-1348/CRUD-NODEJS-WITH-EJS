@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: blue;
+}
+.logo {
+  font-size: 25px;
+  color: black;
+  margin-left: 30px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 344px;
+}
+.pre {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  margin-right: 40px;
+}
+.pre a {
+  text-decoration: none;
+  color: black;
+}

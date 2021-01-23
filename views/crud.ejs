@@ -1,0 +1,26 @@
+<%- include('include/-header') %>
+
+<h3>Presentation</h3>
+<a href="/presentation/add"
+  ><i
+    class="fas fa-plus-square"
+    style="font-size: 30px; color: blue; margin-left: 30px"
+  ></i
+></a>
+<div class="container mx-2">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Presentation Name</th>
+        <th scope="col">Version</th>
+        <th scope="col">Project Status</th>
+        <th scope="col">Presenation Description</th>
+        <th scope="col">Activity</th>
+      </tr>
+    </thead>
+    <tbody class="container">
+      <%- include('include/show') %>
+    </tbody>
+  </table>
+</div>
+<%- include('include/-footer') %> <%- include('include/-footer') %>

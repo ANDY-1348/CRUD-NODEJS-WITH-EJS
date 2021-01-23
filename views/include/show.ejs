@@ -1,0 +1,16 @@
+
+<% data.forEach((d)=>{%>
+<tr>
+
+    <td><%-d.presentationname %></td>
+    <td><%-d.Version %></td>
+    <td><%-d.Projectstatus %></td>
+    <td><%-d.presentationdesc %></td>
+    <td><a href="/edit/<%= d._id %>"> <i class="fas fa-edit"
+                style="font-size:30px;color:blue;margin-right: 30px"></i></a><a href="/delete/<%= d._id %>"><i
+                class="fas fa-trash-alt" style="font-size:30px;color:blue;margin-right: 30px"></i></a></td>
+
+   
+    </tr>
+    <% }); %>
+
